@@ -1,0 +1,446 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210427.161158.3852.0.001.json",
+    "dumpEventTime": "2021-04-27T16:11:58Z",
+    "dumpEventTimeStamp": "1619565118778",
+    "processId": 3852,
+    "cwd": "C:\\Users\\Administrator\\Documents\\airtime",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\jetifier\\src\\worker.js"
+    ],
+    "nodejsVersion": "v12.6.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.6.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.6.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro Education",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz",
+        "speed": 2494,
+        "user": 1220578,
+        "nice": 0,
+        "sys": 797328,
+        "idle": 6138750,
+        "irq": 46937
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz",
+        "speed": 2494,
+        "user": 1220578,
+        "nice": 0,
+        "sys": 797328,
+        "idle": 6138750,
+        "irq": 46937
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz",
+        "speed": 2494,
+        "user": 1220578,
+        "nice": 0,
+        "sys": 797328,
+        "idle": 6138750,
+        "irq": 46937
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz",
+        "speed": 2494,
+        "user": 1220578,
+        "nice": 0,
+        "sys": 797328,
+        "idle": 6138750,
+        "irq": 46937
+      }
+    ],
+    "host": "Paul-Ajogwu"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7e7956db9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e795a72c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e79596d8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a4300b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8228a1e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8210d6a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80a256c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80aa49f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80a0733",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e809efc4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80bdaa5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7e73e0d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e82d170d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e824192b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e832b0ce",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8245bbc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8245bbc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8245bbc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8245bbc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8245bbc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e82434f1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e82430dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80ede6c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e80ecd86",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e8207be2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a6719e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a67447",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a6640a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a0c307",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e7a66e63",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e792c8dc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7e873b4e8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff865bd7c24",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ff86772d4d1",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3194880,
+    "totalCommittedMemory": 3194880,
+    "usedMemory": 2554208,
+    "availableMemory": 2195901944,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047328,
+        "used": 1047280,
+        "available": 48
+      },
+      "old_space": {
+        "memorySize": 1191936,
+        "committedMemory": 1191936,
+        "capacity": 1084832,
+        "used": 1080552,
+        "available": 4280
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 149856,
+        "used": 149856,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 244560,
+        "used": 244560,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.078,
+    "kernelCpuSeconds": 0.046,
+    "cpuConsumptionPercent": 12.4,
+    "maxRss": 25808896,
+    "pageFaults": {
+      "IORequired": 7202,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Administrator\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_2524_TSYOYPHUNZOQJZAL",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "PAUL-AJOGWU",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DataGrip": "C:\\Program Files\\JetBrains\\DataGrip 2020.3.2\\bin;",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\Administrator",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Administrator",
+    "INIT_CWD": "C:\\Users\\Administrator\\Documents\\airtime",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_65",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Administrator\\AppData\\Local",
+    "LOGONSERVER": "\\\\PAUL-AJOGWU",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "exec",
+    "npm_config_cache": "C:\\Users\\Administrator\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_init.module": "C:\\Users\\Administrator\\.npm-init.js",
+    "npm_config_init_module": "C:\\Users\\Administrator\\.npm-init.js",
+    "npm_config_key": "value",
+    "npm_config_metrics_registry": "http://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_prefix": "C:\\Users\\Administrator\\AppData\\Roaming\\npm",
+    "npm_config_registry": "http://registry.npmjs.org/",
+    "npm_config_userconfig": "C:\\Users\\Administrator\\.npmrc",
+    "npm_config_user_agent": "npm/7.6.0 node/v12.6.0 win32 x64",
+    "npm_execpath": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "npm_lifecycle_event": "npx",
+    "npm_lifecycle_script": "react-native \"run-android\"",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "C:\\Users\\Administrator\\Documents\\airtime\\package.json",
+    "npm_package_name": "airtime",
+    "npm_package_version": "0.0.1",
+    "NPM_PREFIX_NPX_CLI_JS": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "NPX_CLI_JS": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npx-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Administrator\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin;C:\\Users\\Administrator\\Documents\\node_modules\\.bin;C:\\Users\\Administrator\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs;C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin;C:\\Users\\Administrator\\Documents\\node_modules\\.bin;C:\\Users\\Administrator\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Administrator\\flutter\\bin;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Windows Kits\\8.0\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\src\\flutter\\bin;C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;;C:\\Program Files\\JetBrains\\DataGrip 2020.3.2\\bin;;C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin",
+    "PATH": "C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin;C:\\Users\\Administrator\\Documents\\node_modules\\.bin;C:\\Users\\Administrator\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Program Files\\nodejs;C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin;C:\\Users\\Administrator\\Documents\\node_modules\\.bin;C:\\Users\\Administrator\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Users\\Administrator\\flutter\\bin;C:\\Program Files\\nodejs\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files (x86)\\Microsoft ASP.NET\\ASP.NET Web Pages\\v1.0\\;C:\\Program Files (x86)\\Windows Kits\\8.0\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps;C:\\src\\flutter\\bin;C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;;C:\\Program Files\\JetBrains\\DataGrip 2020.3.2\\bin;;C:\\Users\\Administrator\\Documents\\airtime\\node_modules\\.bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "paths": "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.9",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Administrator\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm": "C:\\Program Files\\JetBrains\\PyCharm 2020.3\\bin%C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.9;",
+    "PyCharm Community Edition": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;",
+    "PYTHON_HOME": "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.9",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.55.2",
+    "TMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "PAUL-AJOGWU",
+    "USERDOMAIN_ROAMINGPROFILE": "PAUL-AJOGWU",
+    "USERNAME": "PAUL",
+    "USERPROFILE": "C:\\Users\\Administrator",
+    "VS110COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\Tools\\",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-2c1f00e136-sock",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

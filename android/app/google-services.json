@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545695197460",
+    "project_id": "airtime-68ec4",
+    "storage_bucket": "airtime-68ec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545695197460:android:5f8de33b8d4c71c384fa01",
+        "android_client_info": {
+          "package_name": "com.airtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545695197460-514ck8odbpitkiqras50kiamth2stkgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqlr05QksJQJHnJr_iOXOQPpGFYK3eNuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545695197460-514ck8odbpitkiqras50kiamth2stkgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
